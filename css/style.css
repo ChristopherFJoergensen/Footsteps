@@ -1,0 +1,478 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  max-width: 100%;
+  background-color: #f7f6f1;
+}
+
+.social_header {
+  width: 100%;
+  height: 28px;
+  background-color: #000000;
+}
+
+.social_header nav {
+  float: right;
+}
+
+.social_header nav ul {
+  list-style-type: none;
+  margin-right: 150px;
+  margin-top: 3px;
+}
+
+.social_header nav li {
+  float: left;
+  margin-left: 45px;
+}
+
+.social_header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_header {
+  width: 100%;
+  height: 100px;
+  background-color: #252c36;
+}
+
+.main_header div {
+  height: 70px;
+  float: left;
+  margin-top: 16px;
+}
+
+.main_header div img {
+  width: 100%;
+  height: auto;
+}
+
+.main_header nav {
+  width: 65%;
+  height: 100%;
+  float: right;
+  margin-right: 5%;
+}
+
+.main_header nav ul {
+  list-style-type: none;
+}
+
+.main_header nav li {
+  float: left;
+  margin-left: 14%;
+  margin-top: 3%;
+}
+
+.main_header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.main_header nav a p {
+  font-size: 11px;
+  opacity: 75%;
+}
+
+.brand {
+  width: 100%;
+  height: 90px;
+  background-color: #ebe8df;
+}
+
+.brand_shadow {
+  -webkit-box-shadow: 00px 10px 5px 0 #000;
+  box-shadow: 00px 20px 20px 0 #000;
+}
+
+.brand_overline {
+  width: 100%;
+  height: 10px;
+  background-color: #dddad3;
+}
+
+.slider_overline {
+  width: 100%;
+  height: 10px;
+  background-color: #dddad3;
+}
+
+#Brand {
+  width: 8vw;
+  background-color: #edeae1;
+  margin-left: 15.5%;
+  margin-top: 3%;
+}
+
+#Sort {
+  width: 8vw;
+  background-color: #edeae1;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.shoe {
+  width: 13vw;
+  height: 17vw;
+  float: left;
+  margin-left: 6vw;
+  margin-top: 7vh;
+}
+
+.shoe img {
+  margin-left: 34px;
+}
+
+.shoe .stars {
+  text-align: center;
+  color: gold;
+}
+
+.shoe .model {
+  text-align: center;
+}
+
+.shoe .price {
+  text-decoration: line-through;
+  float: left;
+  margin-left: 37px;
+}
+
+.shoe .discount {
+  text-align: center;
+}
+
+.shoe .redtext {
+  color: #e42828;
+}
+
+.shoe .button_parent {
+  width: 110px;
+  height: 20px;
+  background-color: #ece9e0;
+  border-radius: 4px;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+
+.shoe .button_parent input {
+  width: 30px;
+  height: 17px;
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  border-radius: 4px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.shoe .button_parent button {
+  height: 95%;
+  width: 67%;
+  float: right;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.extramargin {
+  margin: 0px 0px 0px 150px;
+}
+
+footer {
+  background-color: #252c36;
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+  padding-right: 25px;
+}
+
+footer input {
+  float: right;
+}
+
+footer label {
+  float: right;
+  margin-right: 15px;
+  color: white;
+}
+
+.em {
+  margin-top: 100px;
+}
+
+.write {
+  width: 1350px;
+  margin-left: 13%;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+
+.write input {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-left: 10%;
+}
+
+.write .divmargin {
+  margin-left: 9%;
+  margin-top: 3%;
+  float: left;
+}
+
+.write .clearleft {
+  clear: left;
+}
+
+.write img {
+  margin-left: 200px;
+  margin-top: -220px;
+}
+
+.write button {
+  float: left;
+  margin-left: 120px;
+  margin-top: -50px;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #eceade;
+}
+
+.news {
+  height: 160px;
+  width: 800px;
+  -webkit-box-shadow: 20px 25px 20px 0 #000;
+  box-shadow: 20px 25px 20px 0 #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.shoeimg {
+  width: 500px;
+  height: 400px;
+  margin-left: 500px;
+  margin-top: 45px;
+  float: left;
+}
+
+.shoeimg img {
+  width: 100%;
+  height: auto;
+}
+
+.shoetext {
+  width: 400px;
+  float: left;
+  margin-top: 85px;
+}
+
+.shoetext .price {
+  text-decoration: line-through;
+  float: left;
+  margin-left: 37px;
+  margin-top: 25px;
+}
+
+.shoetext .redtext {
+  color: #e42828;
+  margin-top: 25px;
+}
+
+.shoetext .discount {
+  margin-left: 37px;
+}
+
+.shoetext .model {
+  margin-left: 37px;
+}
+
+.shoetext .choose {
+  margin-left: 37px;
+  float: left;
+}
+
+.shoetext .sizes {
+  float: right;
+  margin-right: 208px;
+}
+
+.shoetext .button_parent {
+  width: 150px;
+  height: 30px;
+  background-color: #ece9e0;
+  border-radius: 4px;
+  margin-left: 37px;
+  margin-top: 130px;
+}
+
+.shoetext .button_parent input {
+  width: 40px;
+  height: 28px;
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  border-radius: 4px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 3px;
+  font-size: 20px;
+}
+
+.shoetext .button_parent button {
+  height: 95%;
+  width: 67%;
+  float: right;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.info {
+  width: 800px;
+  height: 250px;
+  border: solid black 2px;
+  margin-left: 500px;
+  margin-top: 15px;
+  padding: 25px;
+  -webkit-box-shadow: 20px 25px 20px 0 #000;
+  box-shadow: 20px 25px 20px 0 #000;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -102px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 38px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.background_color {
+  background-color: #f7f6f1;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.clearleft {
+  clear: left;
+}
+/*# sourceMappingURL=style.css.map */
